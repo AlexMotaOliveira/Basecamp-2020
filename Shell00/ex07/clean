@@ -1,0 +1,6 @@
+find . -type f \( -name '*~' -or -name '#*#' \) -delete -print
+
+
+find ..  -name '.git' -delete -print
+
+find ./* -type d -name ".out" -print -exec rm -rf {} \;
